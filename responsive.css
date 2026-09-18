@@ -1,0 +1,220 @@
+@media screen and (max-width:460px) {
+
+    header {
+        height: 6vh;
+        width: 100%;
+        background-color: white;
+    }
+
+    nav {
+        padding: 0 10px;
+        position: relative;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .logo {
+        height: 20px;
+    }
+
+    .logo img {
+        height: 20px;
+    }
+
+    .logo p {
+        font-size: 16px;
+        padding-left: 6px;
+        font-family: "Tagesschrift", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .bell {
+        display: block;
+        margin-left: 37vw;
+        margin-top: 5px;
+    }
+
+    .bell-btn {
+        font-size: 15px;
+        border: none;
+        background-color: transparent;
+    }
+
+    .bell-btn:hover {
+        font-weight: 800;
+    }
+
+    .user {
+        height: 26px;
+        width: 26px;
+        align-content: center;
+        padding-left: 10px;
+    }
+
+    .user img {
+        height: 26px;
+    }
+
+    footer {
+        display: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        margin: 0px auto;
+        z-index: 2;
+        background-color: white;
+        /* padding-left: 10px; */
+    }
+
+    .accountss {
+        padding-left: 10px;
+    }
+
+    .Last.active {
+        display: inline;
+    }
+
+    .suggestion {
+        width: 75%;
+        margin: 0 21px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+
+    }
+
+    .account-img {
+        height: 25px;
+        width: 25px;
+        border: 2px solid transparent;
+    }
+
+    .account-photo {
+        height: 25px;
+        width: 25px;
+    }
+
+    .suggest-account {
+        margin-bottom: -4px;
+    }
+
+    .services {
+        width: 85%;
+        height: 60px;
+        margin-top: 40%;
+    }
+
+    .service-link {
+        line-height: 20px;
+    }
+
+    .copyright {
+        margin-top: 20px;
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .stories-container {
+        width:100%;
+        margin: 0;
+        height: 13vh;
+        overflow: hidden;
+    }
+
+    .stories {
+        display: inline-flex;
+        margin: 0px;
+        background-color: white;
+        height: 13vh;
+        width: 100%;
+        align-items: center;
+        justify-content: flex-start;
+        border: none;
+    }
+
+    .profile {
+        align-content: center;
+        height: 70px;
+        width: 80px;
+        justify-items: center;
+        margin-right: 5px;
+        margin-left: 0px;
+        padding: 0 5px;
+    }
+
+    .account-story {
+        height: 42px;
+        width: 42px;
+        border: 2px solid transparent;
+        margin-bottom: 2px;
+    }
+
+    .account-story img {
+        display: inline;
+        margin-top: -6.8px;
+        margin-left: -10.8px;
+    }
+
+    .user-name {
+        position: relative;
+        margin-left: 0px;
+        width: 56px;
+        margin-top: 2px;
+        font-size: 13px;
+    }
+
+    .profile-name {
+        font-size: 13px;
+    }
+
+    .plus {
+        top: 36px;
+        left: 44px;
+    }
+
+    .plus i {
+        height: 13px;
+        width: 13px;
+        font-size: 13px;
+    }
+
+    .post-container {
+        width: 100%;
+        margin: 0;
+    }
+    .post-card{
+    width: 100%;
+   margin: 0;
+   border: none;
+   background-color: white;
+}
+.post-head{
+    height: 40px;
+    padding-top: 9px;
+    padding-left: 7px;
+}
+.account-image{
+    width: 30px;
+    height: 30px;
+    /* border: 2px solid green; */
+    border-radius: 50%;
+}
+.post-img{
+    height:44vh ;
+    overflow: hidden;
+}
+.lcs-icon{
+    font-size: 17px;
+}
+.save-icon{
+    font-size: 17px;
+}
+.add-comment{
+    display: none;
+}
+}
