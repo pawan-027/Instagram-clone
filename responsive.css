@@ -166,11 +166,12 @@
         margin-left: 2px;
         width: 60px;
         margin-top: 2px;
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .profile-name {
-        font-size: 13px;
+        font-size: 12px;
+         margin-top: 2px;
     }
 
     .plus {
